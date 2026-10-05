@@ -4,7 +4,7 @@
 
 This project implements a **layered SystemVerilog verification environment** for a JTAG (Joint Test Action Group) TAP (Test Access Port) controller.
 
-The TAP controller is modeled as a **16-state finite state machine (FSM)**. The verification environment generates randomized TMS stimulus, drives it to the DUT, monitors the resulting state and output signals, checks the outputs using a scoreboard, collects functional coverage, and verifies state transitions using SystemVerilog Assertions (SVA).
+The TAP controller is modeled as a **16-state finite state machine (FSM)**. The verification environment generates randomized TMS stimulus, drives it to the DUT, monitors the resulting state and output signals, checks the outputs using a scoreboard, collects functional coverage and verifies state transitions using SystemVerilog Assertions (SVA).
 
 The project demonstrates the use of:
 
